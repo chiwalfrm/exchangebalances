@@ -3,7 +3,6 @@ import sys
 from os import path
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
-#pp = pprint.PrettyPrinter(width=41, compact=True)
 if len(sys.argv) < 4:
         print("ERROR: Must specify apifile, cryptocurrency, and base.")
         exit()
